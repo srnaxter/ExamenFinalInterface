@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Ejercicio3</title>
+</head>
+<body>
+<ul class="nav nav-tabs" id="myTab3" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="examen-tab3" data-toggle="tab" href="#examen" role="tab" aria-controls="examen" aria-selected="true">Examen</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="alumno-tab3" data-toggle="tab" href="#alumno" role="tab" aria-controls="alumno" aria-selected="false">Alumno</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="profesor-tab3" data-toggle="tab" href="#profesor" role="tab" aria-controls="profesor" aria-selected="false">Profesor</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent3">
+    <div class="tab-pane fade show active" id="examen" role="tabpanel" aria-labelledby="home-tab"><div class="col bg-primary">
+        <div class="alert alert-success" role="alert">
+            <strong>Examen </strong>Estoy en el apartado correspondiente de la pestaña examen
+        </div>
+    </div></div>
+    <div class="tab-pane fade" id="alumno" role="tabpanel" aria-labelledby="profile-tab"><div class="col bg-success">
+        <div class="alert alert-info" role="alert">
+            <strong>Alumno </strong>Estoy en el apartado correspondiente de la pestaña alumno
+
+        </div>
+    </div></div>
+    <div class="tab-pane fade" id="profesor" role="tabpanel" aria-labelledby="contact-tab"><div class="col bg-warning">
+        <div class="alert alert-danger" role="alert">
+            <strong>profesor </strong> Estoy en el apartado correspondiente de la pestaña profesor
+        </div>
+    </div></div>
+</div>
+</body>
+</html>
